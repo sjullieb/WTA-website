@@ -1,4 +1,4 @@
-# _Wta Site_
+# _Wta Site: Hiking Guide_
 
 #### _A web site that shows a list of hikes in the area, Created 04/05/2019_
 
@@ -6,6 +6,26 @@
 
 ## Description
 
+A web site recreated https://www.wta.org/go-outside/hikes/hike_search
+All trails sould be shown on the front page initially. 
+The user should be able to narrow the search choosing trails by rating, mileage, elevation and trail features.
+When the search button is clicked on only trails that fit the conditions should be shown.
+The user should be able to click any hike. The detailed information about the hike should be shown on the next page.
+Information about hike should include:
+name
+location
+length
+elevation
+high point
+trail features
+description
+photo
+map showing the trailhead
+driving directions
+list of reports
+The user should be able to click on the report to see the details.
+
+https://www.wta.org/go-hiking/hikes/summit-lake
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
