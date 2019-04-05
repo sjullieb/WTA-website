@@ -23,6 +23,13 @@ photo
 map showing the trailhead
 driving directions
 list of reports
+Report overview shold include:
+hike date
+user name
+beware of
+photo
+likes
+
 The user should be able to click on the report to see the details.
 
 https://www.wta.org/go-hiking/hikes/summit-lake
