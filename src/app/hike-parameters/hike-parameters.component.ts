@@ -7,8 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class HikeParametersComponent {
 
-  @Input() short: bool;
-  @Input() location: bool;
+  @Input() short: boolean;
+  @Input() location: boolean;
   @Input() length: number;
   @Input() elevation: number;
   @Input() highestPoint: number;

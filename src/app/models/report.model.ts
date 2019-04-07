@@ -1,3 +1,4 @@
-export default class Report{
-  constractor(public user: string, public dateHiked: date, public description: string)
+export class Report{
+
+  constructor(public name: string, public dateHike: Date, public description: string){}
 }

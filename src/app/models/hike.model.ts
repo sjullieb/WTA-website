@@ -1,7 +1,7 @@
-export default class Hike{
+export class Hike{
   description: string;
   length: number;
   elevation: number;
   highestPoint: number;
-  constractor(public name: string){}
+  constructor(public name: string){}
 }
