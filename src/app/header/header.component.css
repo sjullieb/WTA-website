@@ -1,3 +1,11 @@
 #large-logo {
   float: left;
+  width : 100px;
+}
+.first{
+  background-color: green;
+
+}
+.second{
+  background-color: lightgrey;
 }

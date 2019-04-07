@@ -9,9 +9,9 @@ export class HikeParametersComponent {
 
   @Input() short: boolean;
   @Input() location: boolean;
-  @Input() length: number;
-  @Input() elevation: number;
-  @Input() highestPoint: number;
-  @Input() rating: number;
-  @Input() votes: number;
+  // @Input() length: number;
+  // @Input() elevation: number;
+  // @Input() highestPoint: number;
+  // @Input() rating: number;
+  // @Input() votes: number;
 }
