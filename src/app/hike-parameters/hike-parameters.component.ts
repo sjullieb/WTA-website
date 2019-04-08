@@ -12,6 +12,6 @@ export class HikeParametersComponent {
   @Input() length: string;
   @Input() gain: number;
   @Input() highestPoint: number;
-  // @Input() rating: number;
+  @Input() rating: number;
   // @Input() votes: number;
 }

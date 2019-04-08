@@ -1,7 +1,13 @@
 <div *ngIf="short" class="short">
   <p><img src="../../assets/images/length.JPG" alt="">{{length}}</p>
-  <p><img src="../../assets/images/elevation.JPG" alt="">Gain: {{gain}} | Highest Point: {{highestPoint}}</p>
-  <p><img src="../../assets/images/rating.JPG" alt="">Raiting: </p>
+  <p><img src="../../assets/images/elevation.JPG" alt="">Gain: {{gain}} ft. | Highest Point: {{highestPoint}} ft.</p>
+  <p><img src="../../assets/images/rating.JPG" alt="">Raiting: {{rating}}<img src="../../assets/images/star_gold.JPG"></p>
+  <!-- <div *ngFor="let i of rating">
+    <img src="../../assets/images/star_gold.JPG">
+  </div>
+  <div *ngFor="let i of 5-rating">
+    <img src="../../assets/images/star_grey.JPG">
+  </div> -->
 </div>
 <div *ngIf="!short">
   <p>Full</p>
