@@ -1,20 +1,22 @@
 # _Washington Trail Association Site: Hiking Guide_
 
-#### _A cloned web pages that show hikes in the area, Created 04/05/2019_
+#### _Cloned parts of website that show hikes in the area, Created 04/05/2019_
 
 #### By _**Yulia Shidlovskaya**_
 
 ## Description
 
-A clone of website https://www.wta.org/go-outside/hikes/hike_search
+A clone of website https://www.wta.org/go-outside/hikes/hike_search made with Angular.
 
-All trails should be shown on the front page.
-The user should be able to narrow the search choosing trails by rating, mileage, elevation and trail features.
-When the search button is clicked, only trails that fit the conditions should be shown.
-The user should be able to click any hike from the list and be redirected to the page with the detailed information about the hike.
-All reports should be shown at the bottom of that page.
-The user should be able to click on the report to see the details.
-The user should able to log in and add/edit a report.
+## Specifications
+
+* All trails should be shown on the front page.
+* The user should be able to narrow the search choosing trails by rating, mileage, elevation and trail features.
+* When the search button is clicked, only trails that fit the conditions should be shown.
+* The user should be able to click any hike from the list and be redirected to the page with the detailed information and reports for the hike.
+* The list of reports should be shown at the bottom of that page.
+* The user should be able to click on a report to see the details.
+* The user should able to log in and add/edit a report.
 
 At the moment only the homepage of hike search is recreated.
 
