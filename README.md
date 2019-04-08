@@ -1,39 +1,22 @@
-# _Wta Site: Hiking Guide_
+# _Washington Trail Association Site: Hiking Guide_
 
-#### _A web site that shows a list of hikes in the area, Created 04/05/2019_
+#### _A cloned web pages that show hikes in the area, Created 04/05/2019_
 
 #### By _**Yulia Shidlovskaya**_
 
 ## Description
 
-A web site recreated https://www.wta.org/go-outside/hikes/hike_search
-All trails sould be shown on the front page initially. 
+A clone of website https://www.wta.org/go-outside/hikes/hike_search
+
+All trails should be shown on the front page.
 The user should be able to narrow the search choosing trails by rating, mileage, elevation and trail features.
-When the search button is clicked on only trails that fit the conditions should be shown.
-The user should be able to click any hike. The detailed information about the hike should be shown on the next page.
-Information about hike should include:
-name
-location
-length
-elevation
-high point
-trail features
-description
-photo
-map showing the trailhead
-driving directions
-list of reports
-Report overview shold include:
-hike date
-user name
-beware of
-photo
-likes
-
+When the search button is clicked, only trails that fit the conditions should be shown.
+The user should be able to click any hike from the list and be redirected to the page with the detailed information about the hike.
+All reports should be shown at the bottom of that page.
 The user should be able to click on the report to see the details.
+The user should able to log in and add/edit a report.
 
-https://www.wta.org/go-hiking/hikes/summit-lake
-
+At the moment only the homepage of hike search is recreated.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -58,6 +41,23 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
-                                         
+
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Support and contact details
+
+_If you run into any issues or have questions, ideas or concerns. Please email me at sjullieb@gmail.com_
+
+## Technologies Used
+
+* HTML
+* CSS
+* Node Package Manager
+* JavaScript ES6
+* Angular
+
+### License
+
+*MIT*
+
+Copyright (c) 2019 **_Yulia Shidlovskaya_**
