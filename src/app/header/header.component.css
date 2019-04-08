@@ -1,10 +1,14 @@
 #large-logo {
   float: left;
   width : 100px;
+  position:absolute;
+  z-index:100;
+  left: 10px;
+  top:0;
 }
-.first{
-  background-color: green;
 
+.first{
+  background-color: green;;
 }
 .second{
   background-color: lightgrey;

@@ -1,7 +1,8 @@
 export class Hike{
   description: string;
-  length: number;
-  elevation: number;
+  location: string;
+  length: string;
+  gain: number;
   highestPoint: number;
   constructor(public name: string){}
 }
