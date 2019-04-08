@@ -1,0 +1,41 @@
+h2 {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  font-size: 14pt;
+  font-family: Georgia, serif;
+  padding: 10px;
+  margin: 0;
+}
+
+.body, button{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: lightgrey;
+  padding: 10px;
+  padding-bottom: 25px;
+}
+
+#clear{
+  float:right;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  padding: 10px;
+  color: darkblue;
+}
+
+#search {
+  float: left;
+  background-color: darkblue;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+input {
+  width: 100%
+}

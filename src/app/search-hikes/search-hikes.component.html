@@ -1,0 +1,12 @@
+<h2>Search Hikes</h2>
+<div class="body">
+  <label for="name">HIKE NAME</label>
+  <br>
+  <input type="text" name="name" id="name" #hikeName>
+  <br>
+  <hr>
+  <br>
+  <button id="search" (click)="startSearch(hikeName.value)">SEARCH</button>
+  <button id="clear" (click)="startSearch('')">Clear form</button>
+  <br>
+</div>

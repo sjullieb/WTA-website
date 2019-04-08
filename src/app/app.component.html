@@ -4,4 +4,8 @@
   </h1>
 </div> -->
 <app-header></app-header>
+<div class="search">
+  <app-search-hikes (search)="startSearch($event)"></app-search-hikes>
+</div>
+
 <app-hike-parameters [short]="hikeParamShort" [location]="hike.location" [length]="hike.length" [gain]="hike.gain" [highestPoint]="hike.highestPoint" [rating]="hike.rating"></app-hike-parameters>
