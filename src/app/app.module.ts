@@ -7,6 +7,7 @@ import { FormsModule }  from '@angular/forms';
 import { HikeParametersComponent } from './hike-parameters/hike-parameters.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchHikesComponent } from './search-hikes/search-hikes.component';
+import { HikeInfoComponent } from './hike-info/hike-info.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SearchHikesComponent } from './search-hikes/search-hikes.component';
     AppComponent,
     HikeParametersComponent,
     HeaderComponent,
-    SearchHikesComponent
+    SearchHikesComponent,
+    HikeInfoComponent
   ],
   imports: [
     BrowserModule,
