@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { SearchHikesComponent } from './search-hikes/search-hikes.component';
 import { HikeInfoComponent } from './hike-info/hike-info.component';
 import { ResultListComponent } from './result-list/result-list.component';
+import { HikeDetailsComponent } from './hike-details/hike-details.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ResultListComponent } from './result-list/result-list.component';
     HeaderComponent,
     SearchHikesComponent,
     HikeInfoComponent,
-    ResultListComponent
+    ResultListComponent,
+    HikeDetailsComponent
   ],
   imports: [
     BrowserModule,
