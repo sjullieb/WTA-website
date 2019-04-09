@@ -1,3 +1,5 @@
-<p>
-  hike-details works!
-</p>
+<h1>{{hike.name}}</h1>
+<app-hike-parameters [name]="hike.name" [imgSrc]="hike.imgSrc" [location]="hike.location" [length]="hike.length" [gain]="hike.gain" [highestPoint]="hike.highestPoint" [rating]="hike.rating"></app-hike-parameters>
+<img src={{hike.imgSrc}} alt="">
+<p>{{hike.description}}</p>
+<!--  REPORTS  -->
