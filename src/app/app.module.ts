@@ -10,6 +10,7 @@ import { SearchHikesComponent } from './search-hikes/search-hikes.component';
 import { HikeInfoComponent } from './hike-info/hike-info.component';
 import { ResultListComponent } from './result-list/result-list.component';
 import { HikeDetailsComponent } from './hike-details/hike-details.component';
+import { ReportsListComponent } from './reports-list/reports-list.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HikeDetailsComponent } from './hike-details/hike-details.component';
     SearchHikesComponent,
     HikeInfoComponent,
     ResultListComponent,
-    HikeDetailsComponent
+    HikeDetailsComponent,
+    ReportsListComponent
   ],
   imports: [
     BrowserModule,
