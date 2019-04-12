@@ -1,5 +1,5 @@
 h2 {
-  background-color: green;
+  background-color: #8AAB38;
   font-weight: bold;
   color: white;
   font-size: 14pt;
@@ -24,12 +24,12 @@ h2 {
   overflow: hidden;
   outline:none;
   padding: 10px;
-  color: darkblue;
+  color: #305A7A;
 }
 
 #search {
   float: left;
-  background-color: darkblue;
+  background-color: #305A7A;
   border: none;
   padding: 10px;
   color: white;

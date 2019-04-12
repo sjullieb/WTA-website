@@ -13,6 +13,6 @@ export class HikeInfoComponent {
   @Input() gain: number;
   @Input() highestPoint: number;
   @Input() rating: number;
-  hikeParamShort: boolean = true;
+  hikeParamShort: boolean = false;
 
 }

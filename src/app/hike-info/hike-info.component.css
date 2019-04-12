@@ -1,11 +1,12 @@
 .body {
   padding: 10px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #fbfbfb;
 }
 
 h2 {
   font-weight: bold;
-  color: darkblue;
+  color: #305A7A;
   font-size: 16pt;
   font-family: Georgia, serif;
   padding: 0;
@@ -18,7 +19,10 @@ h5 {
   color: darkgrey;
   margin: 0;
 }
-img {
+
+.hikeImg{
   float: left;
   width: 100px;
+  padding:10px;
+  padding-left: 0;
 }

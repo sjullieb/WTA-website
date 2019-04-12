@@ -1,0 +1,32 @@
+"hikes": [
+  {
+    "route": "hanford-reach-north",
+    "name": "Hanford Reach - North",
+    "location": "Central Washington -- Stevens pass - west",
+    "imgSrc": "../../assets/images/cherry-creek-falls.jpeg",
+    "length": "7.0 miles, roungtrip",
+    "gain": 500,
+    "heighestPoint": 725.0,
+    "rating": 5
+  },
+  {
+    "route": "mailbox-peak",
+    "name": "Mailbox Peak",
+    "location": "Snoqualmie Region -- North Bend Area",
+    "imgSrc": "../../assets/images/mailbox-peak.jpeg",
+    "length": "9.4 miles, roungtrip",
+    "gain": 4000,
+    "heighestPoint": 4822.0,
+    "rating": 4
+  },
+  {
+    "route": "oyster-dome",
+    "name": "Oyster Dome",
+    "location": "Puget Sound and Islands -- Bellingham Area",
+    "imgSrc": "../../assets/images/oyster-dome.jpeg",
+    "length": "5.0 miles, roungtrip",
+    "gain": 1050,
+    "heighestPoint": 2025.0,
+    "rating": 4
+  }
+]
