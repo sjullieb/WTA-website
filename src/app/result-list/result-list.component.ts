@@ -14,9 +14,15 @@ export class ResultListComponent implements OnInit{
 
 //  @Input() childHikeList: Hike[];
 
-  constructor(/*private router: Router, */private hikeService: HikeService){}
+  constructor(private router: Router, private hikeService: HikeService){}
   ngOnInit(){
     this.hikes = this.hikeService.getHikes();
     console.log(this.hikes);
+  }
+
+  goToDetails(clickedHike)
+  {
+console.log(clickedHike);
+    this.router.navigate(['hikes', clickedHike.$key]);
   }
 }

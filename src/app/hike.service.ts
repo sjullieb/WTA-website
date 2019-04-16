@@ -17,4 +17,8 @@ export class HikeService {
   getHikeById(hikeId: string){
     return this.database.object('hikes/' + hikeId);
   }
+
+  getReports(hikeId: string){
+    
+  }
 }

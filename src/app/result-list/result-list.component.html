@@ -4,7 +4,7 @@
   </div>
   <div class="section">
     <div *ngFor='let hike of hikes | async'>
-      <app-hike-info [name]="hike.name" [imgSrc]="hike.imgSrc" [location]="hike.location" [length]="hike.length" [gain]="hike.gain" [highestPoint]="hike.highestPoint" [rating]="hike.rating"></app-hike-info>
+      <app-hike-info (click)="goToDetails(hike)" [name]="hike.name" [imgSrc]="hike.imgSrc" [location]="hike.location" [length]="hike.length" [gain]="hike.gain" [highestPoint]="hike.highestPoint" [rating]="hike.rating"></app-hike-info>
       <hr>
     </div>
   </div>
