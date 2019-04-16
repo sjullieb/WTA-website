@@ -12,10 +12,11 @@ import { HikeDetailsComponent } from './hike-details/hike-details.component';
 import { ReportsListComponent } from './reports-list/reports-list.component';
 
 import { HttpModule } from '@angular/http';
-//import { routing } from './app.routing';
+import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { HikingGuideComponent } from './hiking-guide/hiking-guide.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -33,13 +34,14 @@ export const firebaseConfig = {
     HikeInfoComponent,
     ResultListComponent,
     HikeDetailsComponent,
-    ReportsListComponent
+    ReportsListComponent,
+    HikingGuideComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-  //  routing,
+    routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
