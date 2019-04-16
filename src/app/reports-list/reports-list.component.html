@@ -3,7 +3,8 @@
     <h2>TRIP REPORTS</h2>
   </div>
   <div class="section">
-    <div *ngFor='let report of reports'>
+    <div *ngFor='let report of reports | async'>
+      <p>{{report.description}}</p>
       <!-- <app-report-info [userName]="report.name"></app-report-info> -->
       <hr>
     </div>

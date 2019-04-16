@@ -11,6 +11,7 @@ import { HikeService } from '.././hike.service';
 })
 export class ResultListComponent implements OnInit{
   hikes;
+  //reports;
 
 //  @Input() childHikeList: Hike[];
 
