@@ -5,8 +5,10 @@
   <div class="section">
     <div *ngFor='let report of reports | async'>
       <p>{{report.description}}</p>
+      <p>{{report.$key}}</p>
       <!-- <app-report-info [userName]="report.name"></app-report-info> -->
       <hr>
     </div>
   </div>
+  <button type="button" name="button" (click)="addNew()">Add</button>
 </div>

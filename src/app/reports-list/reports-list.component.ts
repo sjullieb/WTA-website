@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { Report } from '../models/report.model';
 import { HikeService } from '.././hike.service';
+// import { ReportService } from '.././report.service';
 
 @Component({
   selector: 'app-reports-list',
@@ -21,4 +22,8 @@ export class ReportsListComponent implements OnInit {
     console.log(this.reports);
   }
 
+  addNew(){
+    let newReport = new Report('fff', new Date(), '', 'conditions', 'road', 'bugs', 'snow', 'description');
+    this.hikeService.addReport(this.hikeId, newReport);
+  }
 }

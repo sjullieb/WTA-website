@@ -19,4 +19,8 @@ export class ReportService {
     return this.database.object(`hikes/${this.hikeId}/reports/${reportId}`);
   }
 
+  addReport(report: Report){
+    this.reports.push(report);
+  }
+
 }

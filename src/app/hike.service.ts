@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Hike } from './models/hike.model';
+import { Report } from './models/report.model';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import * as firebase from 'firebase';
 
@@ -24,5 +25,11 @@ export class HikeService {
     console.log(ref);
     console.log(firebase.database().ref(ref));
     return this.database.list(ref);
+  }
+
+  addReport(hikeId: string, report: Report){
+    let ref = `hikes/${hikeId}/reports/`;
+    console.log(report);
+    this.database.list(ref).push(report);
   }
 }
