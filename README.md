@@ -7,6 +7,7 @@
 ## Description
 
 A clone of website https://www.wta.org/go-outside/hikes/hike_search made with Angular.
+The rebuilt website is located at https://wta-site.firebaseapp.com
 
 ## Specifications
 
