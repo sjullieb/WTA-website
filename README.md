@@ -11,14 +11,11 @@ A clone of website https://www.wta.org/go-outside/hikes/hike_search made with An
 ## Specifications
 
 * All trails should be shown on the front page.
-* The user should be able to narrow the search choosing trails by rating, mileage, elevation and trail features.
+* The user should be able to narrow the search choosing trails by name.
 * When the search button is clicked, only trails that fit the conditions should be shown.
 * The user should be able to click any hike from the list and be redirected to the page with the detailed information and reports for the hike.
 * The list of reports should be shown at the bottom of that page.
-* The user should be able to click on a report to see the details.
-* The user should able to log in and add/edit a report.
-
-At the moment only the homepage of hike search is recreated.
+* The user should able to add/edit a report.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
