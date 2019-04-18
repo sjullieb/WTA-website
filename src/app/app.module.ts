@@ -19,6 +19,8 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { HikingGuideComponent } from './hiking-guide/hiking-guide.component';
 import { NewReportComponent } from './new-report/new-report.component';
 
+import { SearchByNamePipe } from './searchByName.pipe';
+
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
   authDomain: masterFirebaseConfig.authDomain,
@@ -37,7 +39,8 @@ export const firebaseConfig = {
     HikeDetailsComponent,
     ReportsListComponent,
     HikingGuideComponent,
-    NewReportComponent
+    NewReportComponent,
+    SearchByNamePipe
   ],
   imports: [
     BrowserModule,

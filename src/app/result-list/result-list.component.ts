@@ -10,21 +10,16 @@ import { HikeService } from '.././hike.service';
   providers: [HikeService]
 })
 export class ResultListComponent implements OnInit{
-  @Input() searchName: string;
+  @Input() searchHikeName: string;
   hikes;
-  //reports;
-
-//  @Input() childHikeList: Hike[];
 
   constructor(private router: Router, private hikeService: HikeService){}
   ngOnInit(){
     this.hikes = this.hikeService.getHikes();
-    console.log(this.hikes);
   }
 
   goToDetails(clickedHike)
   {
-console.log(clickedHike);
     this.router.navigate(['hikes', clickedHike.$key]);
   }
 }
