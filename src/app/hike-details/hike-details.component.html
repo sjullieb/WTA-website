@@ -1,7 +1,7 @@
-<div *ngIf="hike">
+<div *ngIf="hike" class="body">
   <h1>{{(hike| async)?.name}}</h1>
   <app-hike-parameters [location]="(hike | async)?.location" [length]="(hike | async)?.length" [gain]="(hike | async)?.gain" [highestPoint]="(hike | async)?.highestPoint" [rating]="(hike| async)?.rating"></app-hike-parameters>
-  <!-- <img id="mainImg" src= {{(hike|async)?.imgSrc}} alt=""> -->
+  <img id="mainImg" src= {{(hike|async)?.imgSrc}} alt="">
   <p>{{(hike| async)?.description}}</p>
   <app-reports-list></app-reports-list>
 </div>

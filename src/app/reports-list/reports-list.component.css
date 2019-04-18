@@ -1,0 +1,21 @@
+.body {
+  /* padding: 10px; */
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  /* background-color: #fbfbfb; */
+}
+
+h2 {
+  font-weight: bold;
+  color: #305A7A;
+  font-size: 16pt;
+  font-family: Georgia, serif;
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: darkgrey;
+  margin: 0;
+}

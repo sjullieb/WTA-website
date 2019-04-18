@@ -1,6 +1,8 @@
 <div class="body">
   <div class="header">
     <h2>TRIP REPORTS</h2>
+    <br>
+    <button routerLink="/hikes/{{hikeId}}/new-report">Add new report</button>
   </div>
   <div class="section">
     <div *ngFor='let report of reports | async'>
@@ -10,7 +12,7 @@
       <hr>
     </div>
   </div>
-  <button routerLink="/hikes/{{hikeId}}/new-report">Add new report</button>
+
   <br>
   <!-- <button type="button" name="button" (click)="addNew()">Add</button> -->
 </div>

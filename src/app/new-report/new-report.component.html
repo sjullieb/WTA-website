@@ -3,7 +3,7 @@
   <div>
     <label>User name:</label>
     <br>
-    <input #userName>
+    <input #userName required>
   </div>
 
   <div>
@@ -21,31 +21,31 @@
   <div>
     <label>Trail conditions:</label>
     <br>
-    <textarea #trailConditions></textarea>
+    <input #trailConditions>
   </div>
 
   <div>
     <label>Bugs:</label>
     <br>
-    <textarea #bugs></textarea>
+    <input #bugs>
   </div>
 
   <div>
     <label>Road:</label>
     <br>
-    <textarea #road></textarea>
+    <input #road>
   </div>
 
   <div>
     <label>Snow:</label>
     <br>
-    <textarea #snow></textarea>
+    <input #snow>
   </div>
 
   <div>
     <label>Description:</label>
     <br>
-    <textarea #description></textarea>
+    <textarea #description rows=5 required></textarea>
   </div>
 
   <button type="submit" routerLink="/hikes/{{hikeId}}" (click)="submitForm(userName.value, hikeDate.value, type.value, trailConditions.value, road.value, bugs.value, snow.value, description.value)">Add</button>
