@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./hiking-guide.component.css']
 })
 export class HikingGuideComponent {
-
+  searchHikeName: string = '';
   constructor() { }
-  
+
+  startSearch(hikeName: string){
+    this.searchHikeName = hikeName;
+  }
 }

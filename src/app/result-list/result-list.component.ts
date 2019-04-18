@@ -10,6 +10,7 @@ import { HikeService } from '.././hike.service';
   providers: [HikeService]
 })
 export class ResultListComponent implements OnInit{
+  @Input() searchName: string;
   hikes;
   //reports;
 

@@ -20,7 +20,7 @@ export class HikeService {
     return this.database.object('hikes/' + hikeId);
   }
 
-  getReports(hikeId: string){
+  getReportsById(hikeId: string){
     let ref = `hikes/${hikeId}/reports/`;
     console.log(ref);
     console.log(firebase.database().ref(ref));

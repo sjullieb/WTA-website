@@ -17,6 +17,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { HikingGuideComponent } from './hiking-guide/hiking-guide.component';
+import { NewReportComponent } from './new-report/new-report.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -35,7 +36,8 @@ export const firebaseConfig = {
     ResultListComponent,
     HikeDetailsComponent,
     ReportsListComponent,
-    HikingGuideComponent
+    HikingGuideComponent,
+    NewReportComponent
   ],
   imports: [
     BrowserModule,
