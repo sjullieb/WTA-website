@@ -30,6 +30,7 @@ export class HikeService {
   addReport(hikeId: string, report: Report){
     let ref = `hikes/${hikeId}/reports/`;
     console.log(report);
-    this.database.list(ref).push(report);
+    let key = this.database.list(ref).push(report);
+    console.log(key);
   }
 }

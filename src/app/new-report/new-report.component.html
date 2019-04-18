@@ -1,3 +1,52 @@
-<p>
-  new-report works!
-</p>
+<h3>Add New Report to hike</h3>
+<div>
+  <div>
+    <label>User name:</label>
+    <br>
+    <input #userName>
+  </div>
+
+  <div>
+    <label>Hike date:</label>
+    <br>
+    <input #hikeDate>
+  </div>
+
+  <div>
+    <label>Type:</label>
+    <br>
+    <input #type>
+  </div>
+
+  <div>
+    <label>Trail conditions:</label>
+    <br>
+    <textarea #trailConditions></textarea>
+  </div>
+
+  <div>
+    <label>Bugs:</label>
+    <br>
+    <textarea #bugs></textarea>
+  </div>
+
+  <div>
+    <label>Road:</label>
+    <br>
+    <textarea #road></textarea>
+  </div>
+
+  <div>
+    <label>Snow:</label>
+    <br>
+    <textarea #snow></textarea>
+  </div>
+
+  <div>
+    <label>Description:</label>
+    <br>
+    <textarea #description></textarea>
+  </div>
+
+  <button type="submit" routerLink="/hikes/{{hikeId}}" (click)="submitForm(userName.value, hikeDate.value, type.value, trailConditions.value, road.value, bugs.value, snow.value, description.value)">Add</button>
+</div>
