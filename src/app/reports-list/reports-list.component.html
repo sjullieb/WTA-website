@@ -4,8 +4,8 @@
   </div>
   <div class="section">
     <div *ngFor='let report of reports | async'>
+      <p>{{report.userName}}</p>
       <p>{{report.description}}</p>
-      <p>{{report.$key}}</p>
       <!-- <app-report-info [userName]="report.name"></app-report-info> -->
       <hr>
     </div>
